@@ -16,7 +16,7 @@ const selectQueries = [
   },
   {
     view: "all columns of authors and their published paper_title",
-    queryText: `SELECT a.author_no, a.author_name,p.paper_title 
+    queryText: `SELECT a.*,p.paper_title 
         FROM authors AS a
         LEFT JOIN authors_papers AS ap ON a.author_no=ap.author_no
         LEFT JOIN research_papers AS p ON ap.paper_id=p.paper_id 

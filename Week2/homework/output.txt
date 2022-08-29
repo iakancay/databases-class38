@@ -1,4 +1,4 @@
-
+[Running] node "/Users/hackyourfuture/Desktop/hyf/databases-class38/Week2/homework/select_database.js"
 names of all authors and their corresponding mentors
 ┌─────────┬─────────────┬─────────────┐
 │ (index) │ mentor_name │ author_name │
@@ -20,51 +20,51 @@ names of all authors and their corresponding mentors
 │   14    │ 'Author12'  │ 'Author15'  │
 └─────────┴─────────────┴─────────────┘
 all columns of authors and their published paper_title
-┌─────────┬───────────┬─────────────┬─────────────┐
-│ (index) │ author_no │ author_name │ paper_title │
-├─────────┼───────────┼─────────────┼─────────────┤
-│    0    │     1     │  'Author1'  │  'Paper2'   │
-│    1    │     1     │  'Author1'  │  'Paper11'  │
-│    2    │     1     │  'Author1'  │  'Paper24'  │
-│    3    │     1     │  'Author1'  │  'Paper30'  │
-│    4    │     1     │  'Author1'  │  'Paper27'  │
-│    5    │     2     │  'Author2'  │  'Paper3'   │
-│    6    │     2     │  'Author2'  │  'Paper13'  │
-│    7    │     2     │  'Author2'  │  'Paper14'  │
-│    8    │     2     │  'Author2'  │  'Paper29'  │
-│    9    │     3     │  'Author3'  │  'Paper5'   │
-│   10    │     3     │  'Author3'  │  'Paper28'  │
-│   11    │     3     │  'Author3'  │  'Paper29'  │
-│   12    │     4     │  'Author4'  │  'Paper15'  │
-│   13    │     4     │  'Author4'  │  'Paper27'  │
-│   14    │     4     │  'Author4'  │  'Paper6'   │
-│   15    │     5     │  'Author5'  │  'Paper12'  │
-│   16    │     5     │  'Author5'  │  'Paper26'  │
-│   17    │     6     │  'Author6'  │  'Paper25'  │
-│   18    │     6     │  'Author6'  │  'Paper9'   │
-│   19    │     7     │  'Author7'  │    null     │
-│   20    │     8     │  'Author8'  │  'Paper9'   │
-│   21    │     8     │  'Author8'  │  'Paper23'  │
-│   22    │     8     │  'Author8'  │  'Paper12'  │
-│   23    │     9     │  'Author9'  │  'Paper22'  │
-│   24    │    10     │ 'Author10'  │  'Paper4'   │
-│   25    │    10     │ 'Author10'  │  'Paper10'  │
-│   26    │    10     │ 'Author10'  │  'Paper21'  │
-│   27    │    10     │ 'Author10'  │  'Paper15'  │
-│   28    │    11     │ 'Author11'  │  'Paper6'   │
-│   29    │    11     │ 'Author11'  │  'Paper20'  │
-│   30    │    12     │ 'Author12'  │  'Paper19'  │
-│   31    │    12     │ 'Author12'  │  'Paper18'  │
-│   32    │    13     │ 'Author13'  │  'Paper1'   │
-│   33    │    13     │ 'Author13'  │  'Paper18'  │
-│   34    │    14     │ 'Author14'  │  'Paper8'   │
-│   35    │    14     │ 'Author14'  │  'Paper17'  │
-│   36    │    14     │ 'Author14'  │  'Paper21'  │
-│   37    │    15     │ 'Author15'  │  'Paper7'   │
-│   38    │    15     │ 'Author15'  │  'Paper16'  │
-│   39    │    15     │ 'Author15'  │  'Paper3'   │
-│   40    │    15     │ 'Author15'  │  'Paper24'  │
-└─────────┴───────────┴─────────────┴─────────────┘
+┌─────────┬───────────┬─────────────┬───────────────┬──────────────────────────┬─────────┬────────┬────────┬─────────────┐
+│ (index) │ author_no │ author_name │  university   │      date_of_birth       │ h_index │ gender │ mentor │ paper_title │
+├─────────┼───────────┼─────────────┼───────────────┼──────────────────────────┼─────────┼────────┼────────┼─────────────┤
+│    0    │     1     │  'Author1'  │ 'University2' │ 1971-01-31T23:00:00.000Z │    4    │  'F'   │   6    │  'Paper2'   │
+│    1    │     1     │  'Author1'  │ 'University2' │ 1971-01-31T23:00:00.000Z │    4    │  'F'   │   6    │  'Paper11'  │
+│    2    │     1     │  'Author1'  │ 'University2' │ 1971-01-31T23:00:00.000Z │    4    │  'F'   │   6    │  'Paper24'  │
+│    3    │     1     │  'Author1'  │ 'University2' │ 1971-01-31T23:00:00.000Z │    4    │  'F'   │   6    │  'Paper30'  │
+│    4    │     1     │  'Author1'  │ 'University2' │ 1971-01-31T23:00:00.000Z │    4    │  'F'   │   6    │  'Paper27'  │
+│    5    │     2     │  'Author2'  │ 'University3' │ 1972-03-01T23:00:00.000Z │    8    │  'M'   │   9    │  'Paper3'   │
+│    6    │     2     │  'Author2'  │ 'University3' │ 1972-03-01T23:00:00.000Z │    8    │  'M'   │   9    │  'Paper13'  │
+│    7    │     2     │  'Author2'  │ 'University3' │ 1972-03-01T23:00:00.000Z │    8    │  'M'   │   9    │  'Paper14'  │
+│    8    │     2     │  'Author2'  │ 'University3' │ 1972-03-01T23:00:00.000Z │    8    │  'M'   │   9    │  'Paper29'  │
+│    9    │     3     │  'Author3'  │ 'University4' │ 1973-04-02T23:00:00.000Z │   12    │  'F'   │   12   │  'Paper5'   │
+│   10    │     3     │  'Author3'  │ 'University4' │ 1973-04-02T23:00:00.000Z │   12    │  'F'   │   12   │  'Paper28'  │
+│   11    │     3     │  'Author3'  │ 'University4' │ 1973-04-02T23:00:00.000Z │   12    │  'F'   │   12   │  'Paper29'  │
+│   12    │     4     │  'Author4'  │ 'University5' │ 1974-05-03T23:00:00.000Z │   16    │  'M'   │   3    │  'Paper15'  │
+│   13    │     4     │  'Author4'  │ 'University5' │ 1974-05-03T23:00:00.000Z │   16    │  'M'   │   3    │  'Paper27'  │
+│   14    │     4     │  'Author4'  │ 'University5' │ 1974-05-03T23:00:00.000Z │   16    │  'M'   │   3    │  'Paper6'   │
+│   15    │     5     │  'Author5'  │ 'University6' │ 1975-06-04T23:00:00.000Z │   20    │  'F'   │   6    │  'Paper12'  │
+│   16    │     5     │  'Author5'  │ 'University6' │ 1975-06-04T23:00:00.000Z │   20    │  'F'   │   6    │  'Paper26'  │
+│   17    │     6     │  'Author6'  │ 'University1' │ 1976-07-05T23:00:00.000Z │   24    │  'M'   │   9    │  'Paper25'  │
+│   18    │     6     │  'Author6'  │ 'University1' │ 1976-07-05T23:00:00.000Z │   24    │  'M'   │   9    │  'Paper9'   │
+│   19    │     7     │  'Author7'  │ 'University2' │ 1977-08-06T22:00:00.000Z │   28    │  'F'   │   12   │    null     │
+│   20    │     8     │  'Author8'  │ 'University3' │ 1978-09-07T22:00:00.000Z │   32    │  'M'   │   3    │  'Paper9'   │
+│   21    │     8     │  'Author8'  │ 'University3' │ 1978-09-07T22:00:00.000Z │   32    │  'M'   │   3    │  'Paper23'  │
+│   22    │     8     │  'Author8'  │ 'University3' │ 1978-09-07T22:00:00.000Z │   32    │  'M'   │   3    │  'Paper12'  │
+│   23    │     9     │  'Author9'  │ 'University4' │ 1979-10-08T23:00:00.000Z │   36    │  'F'   │   6    │  'Paper22'  │
+│   24    │    10     │ 'Author10'  │ 'University5' │ 1970-11-09T23:00:00.000Z │   40    │  'M'   │   9    │  'Paper4'   │
+│   25    │    10     │ 'Author10'  │ 'University5' │ 1970-11-09T23:00:00.000Z │   40    │  'M'   │   9    │  'Paper10'  │
+│   26    │    10     │ 'Author10'  │ 'University5' │ 1970-11-09T23:00:00.000Z │   40    │  'M'   │   9    │  'Paper21'  │
+│   27    │    10     │ 'Author10'  │ 'University5' │ 1970-11-09T23:00:00.000Z │   40    │  'M'   │   9    │  'Paper15'  │
+│   28    │    11     │ 'Author11'  │ 'University6' │ 1971-12-10T23:00:00.000Z │   44    │  'F'   │   12   │  'Paper6'   │
+│   29    │    11     │ 'Author11'  │ 'University6' │ 1971-12-10T23:00:00.000Z │   44    │  'F'   │   12   │  'Paper20'  │
+│   30    │    12     │ 'Author12'  │ 'University1' │ 1972-01-11T23:00:00.000Z │   48    │  'M'   │   3    │  'Paper19'  │
+│   31    │    12     │ 'Author12'  │ 'University1' │ 1972-01-11T23:00:00.000Z │   48    │  'M'   │   3    │  'Paper18'  │
+│   32    │    13     │ 'Author13'  │ 'University2' │ 1973-02-12T23:00:00.000Z │   52    │  'F'   │   6    │  'Paper1'   │
+│   33    │    13     │ 'Author13'  │ 'University2' │ 1973-02-12T23:00:00.000Z │   52    │  'F'   │   6    │  'Paper18'  │
+│   34    │    14     │ 'Author14'  │ 'University3' │ 1974-03-13T23:00:00.000Z │   56    │  'M'   │   9    │  'Paper8'   │
+│   35    │    14     │ 'Author14'  │ 'University3' │ 1974-03-13T23:00:00.000Z │   56    │  'M'   │   9    │  'Paper17'  │
+│   36    │    14     │ 'Author14'  │ 'University3' │ 1974-03-13T23:00:00.000Z │   56    │  'M'   │   9    │  'Paper21'  │
+│   37    │    15     │ 'Author15'  │ 'University4' │ 1975-04-14T23:00:00.000Z │   60    │  'F'   │   12   │  'Paper7'   │
+│   38    │    15     │ 'Author15'  │ 'University4' │ 1975-04-14T23:00:00.000Z │   60    │  'F'   │   12   │  'Paper16'  │
+│   39    │    15     │ 'Author15'  │ 'University4' │ 1975-04-14T23:00:00.000Z │   60    │  'F'   │   12   │  'Paper3'   │
+│   40    │    15     │ 'Author15'  │ 'University4' │ 1975-04-14T23:00:00.000Z │   60    │  'F'   │   12   │  'Paper24'  │
+└─────────┴───────────┴─────────────┴───────────────┴──────────────────────────┴─────────┴────────┴────────┴─────────────┘
 All research papers and the number of authors that wrote that paper.
 ┌─────────┬─────────────┬─────────────────────┐
 │ (index) │ paper_title │ COUNT(ap.author_no) │
@@ -140,5 +140,5 @@ Minimum and maximum of the h-index of all authors per university.
 │    5    │ 'University1' │      24      │      48      │
 └─────────┴───────────────┴──────────────┴──────────────┘
 
-
+[Done] exited with code=0 in 0.161 seconds
 
