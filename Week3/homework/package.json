@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "mongodb": "^4.9.1"
+  }
 }
