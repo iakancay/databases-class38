@@ -2,13 +2,18 @@ Exercise 1:
 1) member_address, dinner_date, food_code and food_description columns violate 1NF.
 2) foods, dinners, venues entities could be extracted
 3) Members
-  +-----------+-------------+-------------+--------------+-----------+
-  | member_id | member_name | street_name | house_number | dinner_id |
-  +-----------+-------------+-------------+--------------+-----------+
+  +-----------+-------------+-------------+--------------+
+  | member_id | member_name | street_name | house_number |
+  +-----------+-------------+-------------+--------------+
   Dinners
   +-----------+-------------+------------+
   | dinner_id | dinner_date | venue_code |
   +-----------+-------------+------------+
+  Dinners_Members
+  +-----+-----------+-----------+
+  | id  | member_id | dinner_id |
+  +-----+-----------+-----------+
+
   Venues
   +------------+-------------------+
   | venue_code | venue_description |
