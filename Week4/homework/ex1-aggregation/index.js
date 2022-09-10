@@ -1,14 +1,14 @@
 const { MongoClient } = require("mongodb");
 const csvtojson = require("csvtojson");
+const dotenv = require("dotenv");
+dotenv.config();
 
 const db = "databaseWeek4";
 const collection = "world_population";
 
 //Connection to ATLAS mongodb
 const main = async () => {
-  const uri =
-    "mongodb+srv://hyfuser:hyfpassword@cluster0.6enaegs.mongodb.net/?retryWrites=true&w=majority";
-  const client = new MongoClient(uri);
+  const client = new MongoClient(process.env.URI);
   try {
     await insertData(client);
     await calculatePopulationCountryGroupByYears(client, "Turkey");
@@ -24,6 +24,7 @@ const insertData = async (client) => {
   const jsonData = await csvtojson().fromFile(
     "population_pyramid_1950-2022.csv"
   );
+  await client.db(db).collection(collection).deleteMany();
   const result = await client
     .db(db)
     .collection(collection)

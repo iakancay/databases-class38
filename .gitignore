@@ -5,3 +5,6 @@ node_modules/
 **/*.sh
 .idea
 .env
+*/Week4/homework/ex2-transaction/node_modules
+*/Week4/homework/ex2-transaction/.env
+*/Week4/homework/ex1-aggregation/.env
